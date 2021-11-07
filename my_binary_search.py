@@ -7,7 +7,6 @@ Github: https://www.github.com/MaxKret
 
 import random
 import time
-from typing import List
 
 # Implementation of Binary Search algorithm (comparison to Linear Search)
 
@@ -25,7 +24,7 @@ def linear_search_list(l: list, target) -> int:
     return -1
 
 
-def binary_search_list(l: List, target, low=None, high=None) -> int:
+def binary_search_list(l: list, target, low=None, high=None) -> int:
     if low is None:
         low = 0
     if high is None:
